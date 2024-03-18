@@ -3,15 +3,31 @@ div {
 }
 
 .navbar {
-  background-color: blue;
-  color : white;
-  height: 7vh;
-  display: flex;
-  align-items: normal;
-}
 
-.navbar-content{
-  width:100%;
+  background-color: #2148C0;
+  color : white;
+  width: 100%;
+  Button {
+    background-color: #9EDCFF;
+    color: black;
+  };
+  .logo{
+    padding-left:10px;
+  }
+  .user-logo{
+    padding-left:3px;
+    font-size: 15px;
+  }
+  .toggleSideNav {
+    color:white;
+    font-size: 35px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .button-div{
+    padding-right: 20px;
+  }
+  
 }
 
 .nav-menu {
@@ -57,13 +73,7 @@ div {
 }
 
 
-.toggleSideNav {
-  color:white;
-  font-size: 35px;
-  padding-left: 10px;
-}
-
-
 .nav-icons{
   padding:8px 8px 8px 8px;
 }
+

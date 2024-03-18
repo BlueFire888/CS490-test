@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './components/Header';
+import 'bootstrap/dist/css/bootstrap.css';
 import FilterBar from './components/FilterBar';
 import VehicleGrid from './components/VehicleGrid'; // Make sure this is correctly pointing to where your VehicleGrid component is located.
 import Pagination from './components/Pagination';
