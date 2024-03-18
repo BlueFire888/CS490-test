@@ -1,6 +1,6 @@
 import React from 'react';
-import './VehicleCard.css'; // Ensure you have a CSS file for styling
-import vehicleImage from './image.png'; // Assuming your image is directly under src
+import '../styles/VehicleCard.css'; // Ensure you have a CSS file for styling
+import vehicleImage from '../images/image.png'; // Assuming your image is directly under src
 
 function VehicleCard({ model, year, price, passengers, mileage }) {
   return (

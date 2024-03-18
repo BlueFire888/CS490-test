@@ -1,6 +1,6 @@
 
 import React, {useState} from 'react';
-import '../styles/navbar.css';
+import '../styles/DealershipNavbar.css';
 import { SideNav } from './SideNav';
 import { HiBars3 } from "react-icons/hi2";
 import { FaRegUser } from "react-icons/fa";
@@ -28,7 +28,7 @@ const showSidebar = () => setSidebar(!sidebar)
         <div>
           <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'></link>
             <div fluid className='navbar'>
-            <div  className='logo'>{sidebar ? <IoCloseOutline className='toggleSideNav' onClick={showSidebar}/> :  <HiBars3 className='toggleSideNav'  onClick={showSidebar}/> }
+            <div  className='user-logo'>{sidebar ? <IoCloseOutline className='toggleSideNav' onClick={showSidebar}/> :  <HiBars3 className='toggleSideNav'  onClick={showSidebar}/> }
               Welcome <FaRegUser className='user-logo'/></div>
               <div  className='button-div'><Button size='sm' href="/Login">Login</Button></div>
             </div>

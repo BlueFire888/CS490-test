@@ -47,8 +47,9 @@
   .backButton {
     width: 8%;
     height: 5vh;
+    font-size: 30px;
     border: none;
-    background-color: white;
+    color: blue;
   }
 
   .imageBack {

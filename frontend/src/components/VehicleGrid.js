@@ -1,6 +1,6 @@
 import React from 'react';
 import VehicleCard from './VehicleCard';
-import './VehicleGrid.css'; // For styling the grid
+import '../styles/VehicleGrid.css'; // For styling the grid
 
 function VehicleGrid() {
   const vehicles = Array.from({ length: 15 }); // Replace with actual vehicle data if available

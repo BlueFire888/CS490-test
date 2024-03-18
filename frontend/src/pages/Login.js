@@ -10,6 +10,7 @@ import carLogin from "../images/login_car.jpg";
 import backButton from "../images/backButton.jpg";
 import logo from "../images/logo.jpg";
 import { Link } from 'react-router-dom';
+import { MdArrowBack } from "react-icons/md";
 
 function Login() {
 
@@ -35,7 +36,7 @@ function Login() {
             <Col md="auto" className="rowOneColTwo">
                 <Row className="subRowOne">
                     <button href="App" className="backButton">
-                        <img className="imageBack" src={backButton} />
+                    <MdArrowBack/>
                     </button>
                 </Row>
                 <Row className="subRowTwo">

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/navbar.css';
+import '../styles/DealershipNavbar.css';
 import { FaCartPlus} from 'react-icons/fa'
 import { AiFillHome} from 'react-icons/ai'
 import * as IoIcons from 'react-icons/io';

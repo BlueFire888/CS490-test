@@ -1,7 +1,9 @@
+
+/*all div font type = Abel*/
 div {
   font-family: 'Abel';
 }
-
+/*navbar css*/
 .navbar {
 
   background-color: #2148C0;
@@ -11,25 +13,26 @@ div {
     background-color: #9EDCFF;
     color: black;
   };
-  .logo{
-    padding-left:10px;
-  }
+  /*css for a person logo right side of the Welcome statement*/
   .user-logo{
     padding-left:3px;
     font-size: 15px;
   }
+  /*css for three bars that toggles the sidenav*/
   .toggleSideNav {
     color:white;
     font-size: 35px;
     padding-left: 5px;
     padding-right: 5px;
   }
+  /*div element that holds button, userd for signup button*/
   .button-div{
     padding-right: 20px;
   }
   
 }
 
+/*side nav menu css- unctivated/hidden*/
 .nav-menu {
   background-color: #DADCE0;
   width: 250px;
@@ -38,11 +41,11 @@ div {
   justify-content: right;
   position: fixed;
   top: 7vh;
-  left: -100%;
+  left: -100%;/*causes it to be out of page*/
   padding-top: 25px;
   transition: 550ms;
 }
-
+/*css for active side nav that appears after clicking toggle bars*/
 .nav-menu-active{
   background-color: #DADCE0;
   width: 250px;
@@ -51,11 +54,11 @@ div {
   justify-content: right;
   position: fixed;
   top: 7vh;
-  left: 0%;
+  left: 0%;/*makes it appear on page*/
   padding-top: 25px;
   transition: 550ms;
 }
-
+/*all text within side-nav*/
 .nav-text {
   display: flex;
   color: #575757;
@@ -67,12 +70,12 @@ div {
   width: 250px;
   font-size : 13px;
 }
-
+/*css for hovering on an option */
 .nav-text:hover{
   background-color: darkgrey;
 }
 
-
+/*css for all icons in side nav*/
 .nav-icons{
   padding:8px 8px 8px 8px;
 }

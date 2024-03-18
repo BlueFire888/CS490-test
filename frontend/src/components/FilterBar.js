@@ -1,5 +1,5 @@
 import React from 'react';
-import './FilterBar.css'; // Ensure the CSS file is imported
+import '../styles/FilterBar.css'; // Ensure the CSS file is imported
 
 function FilterBar() {
   return (
