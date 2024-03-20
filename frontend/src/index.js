@@ -15,6 +15,8 @@ import {
   Link,
   Route
 } from "react-router-dom";
+import CustomerPurchaseHistory from './pages/CustomerPurchaseHistory';
+import UserProfileMgmt from './pages/UserProfileMgmt';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +30,14 @@ const router = createBrowserRouter([
   {
     path: "SignUp",
     element: <SignUp/>
+  },
+  {
+    path: "CustomerPurchaseHistory",
+    element: <CustomerPurchaseHistory />
+  },
+  {
+    path: "UserProfileMgmt",
+    element: <UserProfileMgmt/>
   }
 ]);
 // to here
