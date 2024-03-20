@@ -9,21 +9,24 @@ div {
   background-color: #2148C0;
   color : white;
   width: 100%;
+  height : 7vh;
+  min-height: 50px;
+  vertical-align:middle;
   Button {
     background-color: #9EDCFF;
     color: black;
   };
-  /*css for a person logo right side of the Welcome statement*/
+  /*css for a person logo and also the Welcome statement*/
   .user-logo{
-    padding-left:3px;
-    font-size: 15px;
+    padding-left:5px;
+    font-size: 18px;
   }
   /*css for three bars that toggles the sidenav*/
   .toggleSideNav {
     color:white;
     font-size: 35px;
     padding-left: 5px;
-    padding-right: 5px;
+    padding-right: 9px;
   }
   /*div element that holds button, userd for signup button*/
   .button-div{
@@ -40,7 +43,6 @@ div {
   display: flex;
   justify-content: right;
   position: fixed;
-  top: 7vh;
   left: -100%;/*causes it to be out of page*/
   padding-top: 25px;
   transition: 550ms;
@@ -53,7 +55,6 @@ div {
   display: flex;
   justify-content: right;
   position: fixed;
-  top: 7vh;
   left: 0%;/*makes it appear on page*/
   padding-top: 25px;
   transition: 550ms;
