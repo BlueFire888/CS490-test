@@ -81,3 +81,7 @@ div {
   padding:8px 8px 8px 8px;
 }
 
+/* Styles for sidenav buttons */
+.sidenavButtons {
+  all: unset;
+}

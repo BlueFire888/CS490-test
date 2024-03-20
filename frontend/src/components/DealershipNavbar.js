@@ -38,13 +38,15 @@ const showSidebar = () => setSidebar(!sidebar)
                 {SideNav.map((item, index) => {
                     return (
                         <li key={index} className={item.cName}>
-                                <div className='nav-icons'>{item.icon}</div> <div>{item.title}</div>
+                                <div className='nav-icons'>{item.icon}</div>
+                                <Button  className="sidenavButtons" href={item.path}>{item.title}</Button>
                         </li>
                     )
                 })}
             </ul>
           </nav>
-          </div>    )
+          </div>
+    )
 }
 
 export default DealershipNavBar;
