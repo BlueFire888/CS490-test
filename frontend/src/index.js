@@ -7,6 +7,8 @@ import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from 'react-router-dom';
 import Login from './pages/Login';
 import SignUp from './pages/SignUp';
+//Added by Krishna
+import LandingPage from './pages/LandingPage'
 
 import {
   BrowserRouter as Router,
@@ -28,6 +30,10 @@ const router = createBrowserRouter([
   {
     path: "SignUp",
     element: <SignUp/>
+  },
+  {
+    path: "Landing",
+    element : <LandingPage/>
   }
 ]);
 // to here

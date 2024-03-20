@@ -27,7 +27,7 @@ const showSidebar = () => setSidebar(!sidebar)
     return (
         <div>
           <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'></link>
-            <div fluid className='navbar'>
+            <div className='navbar'>
             <div  className='user-logo'>{sidebar ? <IoCloseOutline className='toggleSideNav' onClick={showSidebar}/> :  <HiBars3 className='toggleSideNav'  onClick={showSidebar}/> }
               Welcome <FaRegUser className='user-logo'/></div>
               <div  className='button-div'><Button size='sm' href="/Login">Login</Button></div>
