@@ -10,19 +10,39 @@
         width: 100%;
         height: 100vh;
         .landing-top-r{
-            width:100%;
             left: 0px;
             background-color: lightgray;
         }
         .landing-top-photo{
-            position: absolute;
-            width: 909px;
-            height: 708.24px;
-            left: 3px;
-            top: 124.75px;
-
-            background-color: aqua;
-
+            position:fixed;
+            background-image: url("../images/landing-page-img.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 80vh;
+            width:65%;
+            left: 5%;
+            top: 10vh;
+            z-index: 0;
+        }
+        .landing-top-explore{
+            color:white;
+            position: fixed;
+            background-color: rgba(0,0,0,0.2);
+            top:35vh;
+            left: 60%;
+            height: 35vh;
+            width: 30%;
+            z-index: 1;
+            
         }
     }
+}
+
+.explore-skyline{
+    text-align: center;
+}
+
+div {
+font-family: 'Abel';
 }
