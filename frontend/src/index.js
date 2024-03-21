@@ -4,18 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 // Added from here
-import {BrowserRouter} from 'react-router-dom';
 import Login from './pages/Login';
 import SignUp from './pages/SignUp';
 //Added by Krishna
 import LandingPage from './pages/LandingPage'
 
 import {
-  BrowserRouter as Router,
   createBrowserRouter,
-  RouterProvider,
-  Link,
-  Route
+  RouterProvider
 } from "react-router-dom";
 import CustomerPurchaseHistory from './pages/CustomerPurchaseHistory';
 import UserProfileMgmt from './pages/UserProfileMgmt';
@@ -40,8 +36,10 @@ const router = createBrowserRouter([
   {
     path: "UserProfileMgmt",
     element: <UserProfileMgmt/>
-//     path: "Landing",
-//     element : <LandingPage/>
+  },
+  {
+    path: "Landing",
+    element : <LandingPage/>
   }
 ]);
 // to here
